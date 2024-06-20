@@ -1,0 +1,5 @@
+services:
+  ? internal-ui-frontend-manual-test-2
+  : command: npm run test:debug
+    ports:
+      - "9229:9229"
